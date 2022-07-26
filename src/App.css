@@ -1,0 +1,208 @@
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.form-father {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.form-father > h1 {
+  align-self: flex-start;
+  text-shadow: 1px 1px #888888;
+}
+
+form{
+  display: inline-block;
+}
+
+.form-objects input {
+  padding: .5rem 1rem;
+}
+
+form input:focus {
+  outline: none;
+  border: 2px solid #ea00ff
+}
+
+.form-objects {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  padding: 2rem;
+  border-radius: 30px;
+  width: 100%;
+  box-shadow: 3px 3px 1px 1px #888888;
+}
+
+.form-objects i {
+  color: #242424;
+  padding: 0 1rem;
+  width: 36px;
+}
+
+.names {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.names > div {
+  display: flex;
+  align-items: center;
+}
+
+.names input {
+  padding: .5rem 1rem;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.email > input {
+  flex-grow: 100;
+}
+
+.birthday {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.birthday > input {
+  flex-grow: 100;
+}
+
+.password {
+  display: flex;
+  align-items: center;
+}
+
+.password-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 100;
+}
+
+.password-input > input {
+  flex-grow: 100;
+}
+
+.password-input > button {
+  border-radius: 8px;
+  padding: 0;
+  background-color: aliceblue;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+button > i {
+  color: #242424;
+  padding: 0;
+}
+
+.buttons {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 1rem;
+  width: 100%;
+}
+
+.buttons > button.submit {
+  background-color: rgb(82, 163, 1);
+  font-weight: 600;
+  width: 50%;
+}
+
+.buttons > button.clear {
+  background-color: rgb(1, 117, 163);
+  font-weight: 600;
+  width: 50%;
+}
+
+.users-father {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.users-father > h1 {
+  align-self: flex-start;
+  text-shadow: 1px 1px #888888;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aliceblue;
+  padding: 2rem 5rem;
+  border-radius: 20px;
+  box-shadow: 3px 3px 1px 1px #888888;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+h3, h4, h5 {
+  margin: 0;
+  color: #242424;
+}
+
+h5 {
+  color: dimgray;
+  font-weight: 500;
+}
+
+.birthday-box {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  gap: .5rem;
+}
+
+.birthday-box > i {
+  color: #242424;
+}
+
+.list-buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+}
+
+.list-buttons > button {
+  border-radius: 8px;
+  padding: 0;
+  background-color: aliceblue;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.list-buttons > button > .bxs-trash {
+  color: red;
+}
